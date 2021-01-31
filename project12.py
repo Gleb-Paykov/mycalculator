@@ -33,6 +33,6 @@ while True:
 
         elif opr == "sqrt":
             print(math.sqrt(number1))
-    number1 = int(input("Введите первое число "))
-    number2 = int(input("Введите второе число "))
+    number1 = float(input("Введите первое число "))
+    number2 = float(input("Введите второе число "))
     calc(number1, number2)
